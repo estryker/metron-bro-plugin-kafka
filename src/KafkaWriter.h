@@ -21,6 +21,10 @@
 #include <librdkafka/rdkafkacpp.h>
 #include <string>
 #include <Type.h>
+// added to adapt to the refactoring of Zeek .h files. 
+//  Desc.h used to be included by Obj.h which was included by Type.h
+#include<Desc.h>
+// end hack
 #include <logging/WriterBackend.h>
 #include <threading/formatters/JSON.h>
 #include <threading/Formatter.h>

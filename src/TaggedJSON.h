@@ -21,6 +21,10 @@
 #include <string>
 #include <threading/Formatter.h>
 #include <threading/formatters/JSON.h>
+// added to adapt to the refactoring of Zeek .h files. 
+//  Desc.h used to be included by Obj.h which was included by Type.h
+#include<Desc.h>
+// end hack
 
 using threading::formatter::JSON;
 using threading::MsgThread;

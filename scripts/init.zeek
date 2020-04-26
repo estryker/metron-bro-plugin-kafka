@@ -40,7 +40,7 @@ export {
         const json_timestamps: JSON::TimestampFormat = JSON::TS_EPOCH &redef;
 
         ## Destination kafka topic name
-        const topic_name: string = "bro" &redef;
+        const topic_name: string = "zeek" &redef;
 
         ## Maximum wait on shutdown in milliseconds
         const max_wait_on_shutdown: count = 3000 &redef;
